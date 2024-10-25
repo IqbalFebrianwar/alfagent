@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-const AgentChart = dynamic(() => import("@/app/agent/components/agentChart"));
+const RecordingChart = dynamic(() => import("@/app/recording/components/recordingChart"));
 const Modal = () => {
   return (
     <>
@@ -25,9 +25,9 @@ const Modal = () => {
             <p>L1/L2 : L1</p>
             <p>Kesalahan : -</p>
           </div>
-          <p className="font-semibold">Detail Report Email & Recording :</p>
+          <p className="font-semibold">Detail Report Recording :</p>
           <div className="max-w-[250px] my-5">
-            <AgentChart />
+            <RecordingChart />
           </div>
         </div>
       </dialog>

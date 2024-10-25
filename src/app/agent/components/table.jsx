@@ -10,20 +10,16 @@ const Table =()=>{
                 <thead>
                     <tr className="text-black">
                         <th></th>
-                        <th>Nomor Agent</th>
-                        <th>Nama</th>
-                        <th>Email</th>
-                        <th>No Telp</th>
+                        <th>Nama Agent</th>
+                        <th>L1/L2</th>
                         <th></th>
                     </tr>
                 </thead>
                 <tbody>
                         <tr>
                             <th></th>
-                            <td>AGN192</td>
                             <td>Gunadi</td>
-                            <td>gunadi@agent.alfa.com</td>
-                            <td>086273721228</td>
+                            <td>L1</td>
                             <td>
                                 <div className="space-x-2">
                                     <Modal />

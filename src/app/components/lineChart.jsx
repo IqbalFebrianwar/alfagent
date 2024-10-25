@@ -7,6 +7,7 @@ ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Title, T
 
 const DynamicLineChart = () => {
   const [chartData, setChartData] = useState({ datasets: [] });
+
   useEffect(() => {
     const fetchData = async () => {
       // Simulate API call
@@ -14,13 +15,20 @@ const DynamicLineChart = () => {
         setTimeout(
           () =>
             resolve({
-              labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+              labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
               datasets: [
                 {
-                  label: 'Agents',
-                  data: [12, 19, 3, 5, 2, 3],
-                  borderColor: 'rgba(75, 192, 192, 1)',
-                  backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                  label: 'Email',
+                  data: [12, 15, 14, 13, 10, 8, 9, 7, 6, 5, 4, 3], // contoh data email
+                  borderColor: 'rgba(255, 99, 132, 1)',
+                  backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                  fill: true,
+                },
+                {
+                  label: 'Recording',
+                  data: [19, 18, 20, 21, 17, 16, 18, 19, 15, 14, 13, 12], // contoh data recording
+                  borderColor: 'rgba(54, 162, 235, 1)',
+                  backgroundColor: 'rgba(54, 162, 235, 0.2)',
                   fill: true,
                 },
               ],
@@ -48,13 +56,13 @@ const DynamicLineChart = () => {
               },
               title: {
                 display: true,
-                text: 'Agents Data',
+                text: 'Email and Recording Data',
               },
             },
           }}
         />
       ) : (
-        <p>Loading chart data...</p>
+        <p>Loading...</p>
       )}
     </div>
   );

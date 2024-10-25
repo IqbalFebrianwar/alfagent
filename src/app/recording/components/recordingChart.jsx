@@ -14,11 +14,11 @@ const DynamicDoughnutChart = () => {
         setTimeout(
           () =>
             resolve({
-              labels: ['Email', 'Recording'],
+              labels: ['Recording'],
               datasets: [
                 {
-                  label: 'Agents',
-                  data: [12, 19],
+                  label: 'Report Recording',
+                  data: [19],
                   backgroundColor: [
                     'rgba(255, 99, 132, 0.6)',
                     'rgba(54, 162, 235, 0.6)',
@@ -62,7 +62,7 @@ const DynamicDoughnutChart = () => {
               },
               title: {
                 display: true,
-                text: 'Detail Report Agent',
+                text: 'Dynamic Agents Data',
               },
             },
           }}
