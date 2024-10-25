@@ -10,7 +10,7 @@ const Navbar = () => {
         >
           Open drawer
         </label>
-        <a className="btn btn-ghost text-xl">Alfagent</a>
+        <a className="btn btn-ghost text-xl">Alfacare</a>
       </div>
       <div className="flex-none gap-2">
         <div className="form-control">
@@ -37,12 +37,6 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a className="justify-between">
-                Profile
-                <span className="badge">New</span>
-              </a>
-            </li>
             <li>
               <a>Settings</a>
             </li>

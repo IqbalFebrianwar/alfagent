@@ -4,7 +4,7 @@ const DrawerSide = dynamic(() => import("@/app/components/drawer"));
 const Navbar = dynamic(() => import("@/app/components/navbar"));
 
 export const metadata = {
-  title: "Alfagent",
+  title: "Alfacare",
   description: "",
 };
 
