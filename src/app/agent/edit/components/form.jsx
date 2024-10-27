@@ -35,23 +35,37 @@ const Form = () => {
       </label>
       <label className="form-control w-full max-w-xs">
         <div className="label">
-          <span className="label-text">Presensi Email*</span>
+          <span className="label-text">Skor Email*</span>
         </div>
-        <input
-          type="text"
-          placeholder="Contoh : 50"
-          className="input input-bordered w-full max-w-xs"
-        />
+        <div className="flex space-x-4">
+          <input
+            type="text"
+            placeholder="Bulan ini"
+            className="input input-bordered w-full max-w-xs"
+          />
+          <input
+            type="text"
+            placeholder="Bulan kemarin"
+            className="input input-bordered w-full max-w-xs"
+          />
+        </div>
       </label>
       <label className="form-control w-full max-w-xs">
         <div className="label">
-          <span className="label-text">Presensi Recording*</span>
+          <span className="label-text">Skor Recording*</span>
         </div>
-        <input
-          type="text"
-          placeholder="Contoh : 40"
-          className="input input-bordered w-full max-w-xs"
-        />
+        <div className="flex space-x-4">
+          <input
+            type="text"
+            placeholder="Bulan ini"
+            className="input input-bordered w-full max-w-xs"
+          />
+          <input
+            type="text"
+            placeholder="Bulan kemarin"
+            className="input input-bordered w-full max-w-xs"
+          />
+        </div>
       </label>
 
       <button className="btn btn-primary text-white w-32 my-5">Simpan</button>
