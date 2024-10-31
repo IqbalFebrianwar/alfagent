@@ -14,7 +14,7 @@ const DynamicDoughnutChart = () => {
         setTimeout(
           () =>
             resolve({
-              labels: ['Email', 'Recording'],
+              labels: ['Email', 'Telephone'],
               datasets: [
                 {
                   label: 'Agents',
@@ -62,7 +62,7 @@ const DynamicDoughnutChart = () => {
               },
               title: {
                 display: true,
-                text: 'Detail Report Agent',
+                text: 'Data Presensi Agent',
               },
             },
           }}

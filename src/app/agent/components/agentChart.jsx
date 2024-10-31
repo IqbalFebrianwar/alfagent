@@ -14,10 +14,10 @@ const DynamicDoughnutChart = () => {
         setTimeout(
           () =>
             resolve({
-              labels: ['Email', 'Recording'],
+              labels: ['Email', 'Telephone'],
               datasets: [
                 {
-                  label: 'Report Email & Recording',
+                  label: 'Presensi Email & Telephone',
                   data: [12, 19],
                   backgroundColor: [
                     'rgba(255, 99, 132, 0.6)',

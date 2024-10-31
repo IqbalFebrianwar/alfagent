@@ -14,11 +14,11 @@ const DynamicDoughnutChart = () => {
         setTimeout(
           () =>
             resolve({
-              labels: ['Email'],
+              labels: ['Bulan ini','Bulan Kemarin'],
               datasets: [
                 {
-                  label: 'Report Email',
-                  data: [12],
+                  label: 'Presensi Email',
+                  data: [12, 20],
                   backgroundColor: [
                     'rgba(255, 99, 132, 0.6)',
                     'rgba(54, 162, 235, 0.6)',

@@ -25,7 +25,14 @@ const Modal = () => {
             <p>L1/L2 : L1</p>
             <p>Kesalahan : -</p>
           </div>
-          <p className="font-semibold">Detail Report Telephone :</p>
+          <h1 className="font-bold">Presensi Telephone Kategori</h1>
+          <div className="grid grid-cols-2 gap-2 my-5">
+            <p>System & Procedure : 15%</p>
+            <p>Enjoying : 25%</p>
+            <p>Hard Skill : 20%</p>
+            <p>Soft Skill : 10%</p>
+          </div>
+          <p className="font-semibold">Presensi Telephone :</p>
           <div className="max-w-[250px] my-5">
             <RecordingChart />
           </div>

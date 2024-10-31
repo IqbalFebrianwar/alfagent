@@ -25,7 +25,7 @@ const DynamicLineChart = () => {
                   fill: true,
                 },
                 {
-                  label: 'Recording',
+                  label: 'Telephone',
                   data: [19, 18, 20, 21, 17, 16, 18, 19, 15, 14, 13, 12], // contoh data recording
                   borderColor: 'rgba(54, 162, 235, 1)',
                   backgroundColor: 'rgba(54, 162, 235, 0.2)',
@@ -56,7 +56,7 @@ const DynamicLineChart = () => {
               },
               title: {
                 display: true,
-                text: 'Email and Recording Data',
+                text: 'Data Presensi Agent',
               },
             },
           }}
