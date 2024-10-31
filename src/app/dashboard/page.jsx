@@ -28,7 +28,7 @@ export default function Dashboard() {
           <DoughnutChart />
         </div>
       </div>
-      <h1 className="font-semibold text-2xl">Email Grafik</h1>
+      <h1 className="font-semibold text-2xl">Email Category</h1>
       <div className="grid grid-cols-2 p-5 w-full justify-center">
         <div className="max-w-4xl">
           <LineChartEmail />
@@ -37,7 +37,7 @@ export default function Dashboard() {
           <DoughnutChartEmail />
         </div>
       </div>
-      <h1 className="font-semibold text-2xl">Telephone Grafik</h1>
+      <h1 className="font-semibold text-2xl">Telephone Category</h1>
       <div className="grid grid-cols-2 p-5 w-full justify-center">
         <div className="max-w-4xl">
           <LineChartTelephone />
