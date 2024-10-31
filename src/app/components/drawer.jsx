@@ -44,7 +44,7 @@ const Drawerside = () => {
             </ul>
           </details>
         </li>
-        <li>
+        {/* <li>
           <details close>
             <summary>
               <Image
@@ -65,7 +65,7 @@ const Drawerside = () => {
               </li>
             </ul>
           </details>
-        </li>
+        </li> */}
         <li>
           <div className="flex">
             <Image
@@ -78,7 +78,7 @@ const Drawerside = () => {
             <Link href="/email" className="text-[17px] font-normal py-2">Email</Link>
           </div>
         </li>
-        <li>
+        {/* <li>
           <div className="flex">
             <Image
               src="https://res.cloudinary.com/df6nytit6/image/upload/v1729494915/client_mario/note_cpbwzt.png"
@@ -88,6 +88,18 @@ const Drawerside = () => {
               className="w-4"
             />
             <Link href="/recording" className="text-[17px] font-normal py-2">Recording</Link>
+          </div>
+        </li> */}
+        <li>
+          <div className="flex">
+            <Image
+              src="https://res.cloudinary.com/df6nytit6/image/upload/v1729494915/client_mario/note_cpbwzt.png"
+              width="100"
+              height="100"
+              alt="icon"
+              className="w-4"
+            />
+            <Link href="/telephone" className="text-[17px] font-normal py-2">Telephone</Link>
           </div>
         </li>
       </ul>
