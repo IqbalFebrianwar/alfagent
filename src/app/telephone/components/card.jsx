@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const Modal = dynamic (()=> import("@/app/recording/components/modal"))
+const Modal = dynamic (()=> import("@/app/telephone/components/modal"))
 
 const Card =()=>{
     return(

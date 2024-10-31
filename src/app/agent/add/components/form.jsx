@@ -37,11 +37,11 @@ const Form = () => {
       </div>
 
       <div className="my-5">
-        <h1 className="text-xl font-semibold">Agent Recording</h1>
+        <h1 className="text-xl font-semibold">Agent Telephone</h1>
         <div className="grid lg:grid-cols-2 lg:gap-2">
           <label className="form-control w-full max-w-xs">
             <div className="label">
-              <span className="label-text">System & Procedure*</span>
+              <span className="label-text">Total Persenan*</span>
             </div>
             <div className="flex space-x-4">
               <input
@@ -56,57 +56,77 @@ const Form = () => {
               />
             </div>
           </label>
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span className="label-text">Enjoying*</span>
-            </div>
-            <div className="flex space-x-4">
-              <input
-                type="text"
-                placeholder="Bulan ini"
-                className="input input-bordered w-full max-w-xs"
-              />
-              <input
-                type="text"
-                placeholder="Bulan kemarin"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </div>
-          </label>
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span className="label-text">Hard Skill*</span>
-            </div>
-            <div className="flex space-x-4">
-              <input
-                type="text"
-                placeholder="Bulan ini"
-                className="input input-bordered w-full max-w-xs"
-              />
-              <input
-                type="text"
-                placeholder="Bulan kemarin"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </div>
-          </label>
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span className="label-text">Soft Skill*</span>
-            </div>
-            <div className="flex space-x-4">
-              <input
-                type="text"
-                placeholder="Bulan ini"
-                className="input input-bordered w-full max-w-xs"
-              />
-              <input
-                type="text"
-                placeholder="Bulan kemarin"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </div>
-          </label>
+          <div>
+            <h1 className="text-xl font-semibold">Kategori Telephone</h1>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">System & Procedure*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">Enjoying*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">Hard Skill*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">Soft Skill*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+          </div>
         </div>
       </div>
 
@@ -115,7 +135,7 @@ const Form = () => {
         <div className="grid lg:grid-cols-2 lg:gap-2">
           <label className="form-control w-full max-w-xs">
             <div className="label">
-              <span className="label-text">Service Level*</span>
+              <span className="label-text">Total Persenan*</span>
             </div>
             <div className="flex space-x-4">
               <input
@@ -130,40 +150,60 @@ const Form = () => {
               />
             </div>
           </label>
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span className="label-text">Hard Skill*</span>
-            </div>
-            <div className="flex space-x-4">
-              <input
-                type="text"
-                placeholder="Bulan ini"
-                className="input input-bordered w-full max-w-xs"
-              />
-              <input
-                type="text"
-                placeholder="Bulan kemarin"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </div>
-          </label>
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span className="label-text">Soft Skill*</span>
-            </div>
-            <div className="flex space-x-4">
-              <input
-                type="text"
-                placeholder="Bulan ini"
-                className="input input-bordered w-full max-w-xs"
-              />
-              <input
-                type="text"
-                placeholder="Bulan kemarin"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </div>
-          </label>
+          <div>
+            <h1 className="text-xl font-semibold">Kategori Email</h1>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">Service Level*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">Hard Skill*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <span className="label-text">Soft Skill*</span>
+              </div>
+              <div className="flex space-x-4">
+                <input
+                  type="text"
+                  placeholder="Bulan ini"
+                  className="input input-bordered w-full max-w-xs"
+                />
+                <input
+                  type="text"
+                  placeholder="Bulan kemarin"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              </div>
+            </label>
+          </div>
         </div>
       </div>
 
