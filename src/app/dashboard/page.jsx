@@ -1,13 +1,11 @@
-import dynamic from "next/dynamic";
-
-const LineChart = dynamic(() => import("@/app/components/lineChart"));
-const DoughnutChart = dynamic(() => import("@/app/components/doughnutChart"));
-const LineChartEmail = dynamic(() => import("@/app/dashboard/components/email/chartline"));
-const DoughnutChartEmail = dynamic(() => import("@/app/dashboard/components/email/chartdonat"));
-const LineChartTelephone = dynamic(() => import("@/app/dashboard/components/telephone/chartline"));
-const DoughnutChartTelephone = dynamic(() => import("@/app/dashboard/components/telephone/chartdonat"));
-const Count = dynamic(() => import("@/app/components/count"));
-const Filter = dynamic(() => import("@/app/components/filterTime"));
+import LineChart from "../components/lineChart"
+import DoughnutChart from "../components/doughnutChart"
+import LineChartEmail from "../dashboard/components/email/chartline"
+import DoughnutChartEmail from "../dashboard/components/email/chartdonat"
+import LineChartTelephone from "../dashboard/components/telephone/chartline"
+import DoughnutChartTelephone from "../dashboard/components/telephone/chartdonat"
+import Count from "../components/count"
+import Filter from "../components/filterTime"
 
 export default function Dashboard() {
   return (

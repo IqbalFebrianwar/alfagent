@@ -1,7 +1,5 @@
-import dynamic from "next/dynamic";
-
-const DrawerSide = dynamic(() => import("@/app/components/drawer"));
-const Navbar = dynamic(() => import("@/app/components/navbar"));
+import DrawerSide from "../components/drawer"
+import Navbar from "../components/navbar"
 
 export const metadata = {
   title: "Alfacare",

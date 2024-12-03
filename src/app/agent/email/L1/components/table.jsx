@@ -1,5 +1,7 @@
+import dynamic from "next/dynamic"
 import Link from "next/link"
-import Modal from "./modal"
+
+const Modal = dynamic (()=> import ("../components/modal"))
 
 const Table =()=>{
     return(
@@ -8,20 +10,18 @@ const Table =()=>{
                 <thead>
                     <tr className="text-black">
                         <th></th>
-                        <th>Nama Agent</th>
-                        <th>L1/L2</th>
+                        <th>Bulan</th>
                         <th></th>
                     </tr>
                 </thead>
                 <tbody>
                         <tr>
                             <th></th>
-                            <td>Gunadi</td>
-                            <td>L1</td>
+                            <td>Desember</td>
                             <td>
                                 <div className="space-x-2">
                                     <Modal />
-                                    <Link href="/agent/edit" className="btn bg-green-500 text-white">Edit</Link>
+                                    <Link href="/agent/email/L1/lihat" className="btn bg-green-500 text-white">Lihat</Link>
                                     <button className="btn bg-red-700 text-white">Hapus</button>
                                 </div>
                             </td>

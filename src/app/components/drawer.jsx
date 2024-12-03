@@ -19,7 +19,9 @@ const Drawerside = () => {
               alt="icon"
               className="w-4"
             />
-            <Link href="/dashboard" className="text-[17px] font-normal py-2">Dashboard</Link>
+            <Link href="/dashboard" className="text-[17px] font-normal py-2">
+              Dashboard
+            </Link>
           </div>
         </li>
         <li>
@@ -40,6 +42,29 @@ const Drawerside = () => {
               </li>
               <li>
                 <Link href="/agent/add">Tambah Agent</Link>
+              </li>
+              <li>
+                <details close>
+                  <summary>Email</summary>
+                  <ul>
+                    <li>
+                      <Link href="/agent/email/L1">L1</Link>
+                    </li>
+                    <li>
+                      <Link href="/agent/email/L2">L2</Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details close>
+                  <summary>Telephone</summary>
+                  <ul>
+                    <li>
+                      <Link href="/agent/telephone/L1">L1</Link>
+                    </li>
+                  </ul>
+                </details>
               </li>
             </ul>
           </details>
@@ -75,7 +100,9 @@ const Drawerside = () => {
               alt="icon"
               className="w-4"
             />
-            <Link href="/email" className="text-[17px] font-normal py-2">Email</Link>
+            <Link href="/email" className="text-[17px] font-normal py-2">
+              Email
+            </Link>
           </div>
         </li>
         {/* <li>
@@ -99,7 +126,9 @@ const Drawerside = () => {
               alt="icon"
               className="w-4"
             />
-            <Link href="/telephone" className="text-[17px] font-normal py-2">Telephone</Link>
+            <Link href="/telephone" className="text-[17px] font-normal py-2">
+              Telephone
+            </Link>
           </div>
         </li>
       </ul>

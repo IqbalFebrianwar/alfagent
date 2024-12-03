@@ -1,16 +1,16 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
-import Table from "./components/table"
-import FilterTime from "./components/filterTime"
+const Table = dynamic(() => import("../L1/components/table"));
+const FilterTime = dynamic(() => import("../L1/components/filterTime"));
 
-export default function Agent() {
+export default function EmailL1() {
   return (
     <main className="p-10 rounded-md bg-white">
       <div>
         <div className="flex space-x-4">
-          <Link href="/agent/add" className="btn btn-primary text-white">
-            + Tambah Agent
+          <Link href="/agent/email/L1/addmonth" className="btn btn-primary text-white">
+            + Tambah Bulan
           </Link>
           <FilterTime />
         </div>
